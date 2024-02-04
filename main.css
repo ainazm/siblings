@@ -1,0 +1,38 @@
+body{
+    background-image: url(./mariio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+audio{
+position: absolute;
+top: 10px;
+left: 20px;
+
+}
+div.p {
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    top:50px;
+    left: calc(50% - 50% / 2);
+
+    border-radius: 30px;
+    background-color: rgba(154, 211, 237, 0.274);
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 5px dotted rgb(243, 240, 243);
+  }
+  div.p > div.q{
+    width: 150px;
+    height: 150px;
+    background-image: url(./qu.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: color-burn;
+ 
+  }
+  
